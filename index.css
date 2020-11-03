@@ -190,7 +190,7 @@ address {
     color: #666666;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     main {
         flex-direction: column-reverse;
     }
@@ -207,6 +207,13 @@ address {
 @media (min-width: 1900px) {
     .name, .surname {
         font-size: 40px;
+    }
+    .surname {
         margin-left: 20px;
+    }
+}
+@media (max-width:1365px) {
+    .surname {
+        margin-left: 0;
     }
 }
